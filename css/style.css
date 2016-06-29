@@ -55,3 +55,9 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.hair-icon {
+    max-width: 60px;
+    max-height: 60px;
+    padding-top: 5px;
+}

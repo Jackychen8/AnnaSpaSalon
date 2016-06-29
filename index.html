@@ -11,15 +11,16 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav class="white" role="navigation"><a name="home"></a>
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><h3>Anna Spa Salon</h3></a>
+      <a id="logo-container" href="#" class="brand-logo"><img src="woman-hair.png" class="hair-icon"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Services</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Services</a></li>
+        <li><a href="#service">Services</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -29,13 +30,15 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Anna Spa Salon</h1>
+        <h1 class="header center red-text text-accent-1">Anna Spa Salon</h1>
         <div class="row center">
           <h5 class="header col s12 light">Helping you bring out your most healthy, beautiful self</h5>
         </div>
+<!--
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light red accent-1">Call Today</a>
         </div>
+-->
         <br><br>
 
       </div>
@@ -48,10 +51,11 @@
     <div class="section">
 
       <!--   Icon Section   -->
+        <div class="row center"><a name="about" id="download-button" class="btn-large waves-effect waves-light red accent-1"><h5>About Us</h5></a></div>
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h2 class="center brown-text"><img class="hair-icon" src="mission.png"></h2>
             <h5 class="center">Our Mission</h5>
 
             <p class="light">At Anna Spa Salon, we love to help our customers look their best and understand that our physical appearance can have a great impact on our day to day lives. We want to help you have the best life by taking care of your hair, your body, and you.</p>
@@ -69,7 +73,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h2 class="center brown-text"><img class="hair-icon" src="scissors-and-comb.png"></h2>
             <h5 class="center">Our Services</h5>
 
             <p class="light">Our salon provides a full range of services, including hair cuts, coloring, treatment, perms, waxing, facials, and massages. </p>
@@ -79,7 +83,7 @@
                 <li><a href="#">Massage</a></li>
              </ul>
           </div>
-        </div>
+          </div>
       </div>
 
     </div>
@@ -103,7 +107,8 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
+            <a name="contact" id="download-button" class="btn-large waves-effect waves-light red accent-1"><h5>Contact Us</h5></a>
+<!--            <a class="black-text" name="contact"><h4>Contact Us</h4></a>-->
           <p class="center-align light">602-973-3838</p>
           <p class="center-align light">Phoenix, AZ</p>
             <p class="center-align light"><a href="#hours">Our Hours</a></p>
@@ -125,14 +130,70 @@
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+        <div class="row center"><a name="service" id="download-button" class="btn-large waves-effect waves-light red accent-1"><h5>Services</h5></a></div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><img class="hair-icon" src="woman-hair.png"></h2>
+            <h5 class="center">Hair Care</h5>
+
+            <p class="light">At Anna Spa Salon, we love to help our customers look their best and understand that our physical appearance can have a great impact on our day to day lives. We want to help you have the best life by taking care of your hair, your body, and you.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><img class="hair-icon" src="spa-facial-treatment-with-mask-and-massages.png"></h2>
+            <h5 class="center">Skin Care</h5>
+
+            <p class="light">Whether you would like specific services for special occasions or everyday care to keep your hair and body healthy and glowing, our team is happy to help. With many years of experience, we hope to provide you with great customer service.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><img class="hair-icon" src="massage-spa-body-treatment.png"></h2>
+            <h5 class="center">Massage</h5>
+
+            <p class="light">Our salon provides a full range of services, including hair cuts, coloring, treatment, perms, waxing, facials, and massages. </p>
+              <ul>
+                <li><a href="#">Full Body... $60</a></li>
+                <li><a href="#">Facial & Skin</a></li>
+                <li><a href="#">Massage</a></li>
+             </ul>
+          </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Love of beauty is taste. The creation of beauty is art. - Ralph Waldo Emerson</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>    
+    
+    
+  <footer class="page-footer red accent-1">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
             <h5 class="white-text"><a name="hours" class="white-text">Our Hours</a></h5>
-          <p class="grey-text text-lighten-4">Monday-Friday: 9am-5pm</p>
-          <p class="grey-text text-lighten-4">Saturday: 10am-5pm</p>
-          <p class="grey-text text-lighten-4">Sunday: Closed</p>
+          <p class="grey-text text-accent-4">Monday-Friday: 9am-5pm</p>
+          <p class="grey-text text-accent-4">Saturday: 10am-5pm</p>
+          <p class="grey-text text-accent-4">Sunday: Closed</p>
 
 
         </div>
@@ -150,17 +211,17 @@
         <div class="col l3 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="white-text" href="#!">Home</a></li>
-            <li><a class="white-text" href="#!">About</a></li>
-            <li><a class="white-text" href="#!">Services</a></li>
-            <li><a class="white-text" href="#!">Contact</a></li>
+            <li><a class="white-text" href="#home">Home</a></li>
+            <li><a class="white-text" href="#about">About</a></li>
+            <li><a class="white-text" href="#service">Services</a></li>
+            <li><a class="white-text" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize by Jacky Chen</a>
+      Made with <a class="brown-text text-accent-3" href="http://materializecss.com">Materialize by Jacky Chen</a>
       </div>
     </div>
   </footer>
